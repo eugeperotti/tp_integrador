@@ -1,0 +1,12 @@
+jupyterlab
+seaborn
+scikit-learn
+GetOldTweets3
+textblob
+unidecode
+jupyter labextension install jupyterlab-plotly
+conda install -c conda-forge spacy
+conda install -c conda-forge spacy-lookups-data
+spacy download es_core_news_lg
+python -m spacy download es_core_news_lg
+python -m spacy download en_core_web_sm
